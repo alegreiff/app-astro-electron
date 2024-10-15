@@ -1,0 +1,15 @@
+{
+  "appId": "com.alegreiff.ads",
+  "files": ["dist-electron", "dist-astro"],
+  "icon": "./desktopIcon.png",
+   "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": "AppImage",
+    "category": "Utility"
+  },
+  "win": {
+    "target": ["portable", "msi"]
+  }
+}
